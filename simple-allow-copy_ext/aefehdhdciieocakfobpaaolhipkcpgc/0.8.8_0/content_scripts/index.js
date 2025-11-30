@@ -1,0 +1,1 @@
+(()=>{let o={};const n=o=>{const{unlock:n}=o;n?unlocker.enable():unlocker.disable(),proxy.invoke("setSiteConfig",{origin:location.origin,config:o})};proxy.on("toggle",(()=>{o.unlock=!o.unlock,n(o)})),proxy.invoke("getSiteConfig",{origin:location.origin}).then((i=>{o=i,n(i)}))})();

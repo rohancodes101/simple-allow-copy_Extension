@@ -1,0 +1,1 @@
+importScripts("config.js","proxy.js","index.js");
